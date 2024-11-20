@@ -13,9 +13,9 @@ fun main() {
             continue
         }
 
-        var sumOfDigits = 0
+        var suma = 0
         for (num in n..m) {
-            sumOfDigits += num.toString().sumOf { it - '0' }
+            suma += num.toString().sumOf { it - '0' }
         }
 
         println("Case #$case = $sumOfDigits")
