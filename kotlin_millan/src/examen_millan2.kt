@@ -18,6 +18,6 @@ fun main() {
             suma += num.toString().sumOf { it - '0' }
         }
 
-        println("Case #$case = $sumOfDigits")
+        println("Case #$case = $suma")
     }
 }
